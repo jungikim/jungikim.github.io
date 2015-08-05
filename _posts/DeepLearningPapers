@@ -1,0 +1,17 @@
+---
+layout: post
+title: Deep Learning papers
+---
+
+A Simple Way to Initialize Recurrent Networks of Rectified Linear Units
+http://arxiv.org/pdf/1504.00941v2.pdf
+
+Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks
+http://www.anthology.aclweb.org/P/P15/P15-1150.pdf
+https://github.com/stanfordnlp/treelstm
+
+
+Neural Network Dependency parser - Stanford
+http://nlp.stanford.edu/software/nndep.shtml
+A Fast and Accurate Dependency Parser Using Neural Networks - EMNLP 2014
+
