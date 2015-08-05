@@ -20,9 +20,9 @@ Pure Neural MT approaches (encoder-decoder)
    - Note:
      - Kyunghyun Cho now at NYU
      - some work with Holger Schwenk U of Maine (Lemans)/Facebook
-  - Huawei (with an intern from Chinese Academy of Sciences)
-   - [Encoding Source Language with Convolutional Neural Network for Machine Translation] (http://www.anthology.aclweb.org/P/P15/P15-1003.pdf)
 
+ - Huawei (with an intern from Chinese Academy of Sciences)
+   - [Encoding Source Language with Convolutional Neural Network for Machine Translation] (http://www.anthology.aclweb.org/P/P15/P15-1003.pdf)
 
 
 Augmenting previous approaches to MT
