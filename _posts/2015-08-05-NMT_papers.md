@@ -30,11 +30,11 @@ Augmenting previous approaches to MT
 
  - BBN
    - [Fast and Robust Neural Network Joint Models for Statistical Machine Translation - ACL 2014] (http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf) 
-   - Main author now at Google
+     - Main author now at Google
 
 - Huawei (with a student? from Harbin Institute of Technology)
-  - [Context-Dependent Translation Selection Using Convolutional Neural Network - ACL 2015 short](http://www.anthology.aclweb.org/P/P15/P15-2088.pdf)
-    - Similar approach to our Statistical Lexical Transfer with NN (context-dependent / phrase-phrase scoring with NN)
+   - [Context-Dependent Translation Selection Using Convolutional Neural Network - ACL 2015 short](http://www.anthology.aclweb.org/P/P15/P15-2088.pdf)
+     - Similar approach to our Statistical Lexical Transfer with NN (context-dependent / phrase-phrase scoring with NN)
 
 
 
