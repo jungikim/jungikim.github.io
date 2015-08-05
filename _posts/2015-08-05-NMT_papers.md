@@ -4,6 +4,7 @@ title: Neural Machine Translation papers
 ---
 
 Pure Neural MT approaches (encoder-decoder)
+
  - U of Oxford:
    - [Recurrent Continuous Translation Models - EMNLP 2013](http://www.aclweb.org/anthology/D13-1176.pdf) / [slides](http://nal.co/papers/KalchbrennerBlunsom_EMNLP13_talk)
 
@@ -26,6 +27,7 @@ Pure Neural MT approaches (encoder-decoder)
 
 
 Augmenting previous approaches to MT
+
  - BBN
    - [Fast and Robust Neural Network Joint Models for Statistical Machine Translation - ACL 2014] (http://acl2014.org/acl2014/P14-1/pdf/P14-1129.pdf) 
    - Main author now at Google
