@@ -37,9 +37,11 @@ Augmenting previous approaches to MT
    - [Context-Dependent Translation Selection Using Convolutional Neural Network - ACL 2015 short](http://www.anthology.aclweb.org/P/P15/P15-2088.pdf)
      - Similar approach to our Statistical Lexical Transfer with NN (context-dependent / phrase-phrase scoring with NN)
 
- - more comprehensive list
-   - http://www.statmt.org/survey/Topic/NeuralNetworkModels
-   - http://dl4mt.computing.dcu.ie/DL4MT-ref.html
+
+ More comprehensive list
+
+ - http://www.statmt.org/survey/Topic/NeuralNetworkModels
+ - http://dl4mt.computing.dcu.ie/DL4MT-ref.html
 
 
 
