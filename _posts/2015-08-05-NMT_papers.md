@@ -18,9 +18,10 @@ Pure Neural MT approaches (encoder-decoder)
    - [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation - EMNLP 2014](http://emnlp2014.org/papers/pdf/EMNLP2014179.pdf) / [code](https://github.com/lisa-groundhog/GroundHog/blob/master/experiments/nmt/README.md)
    - [Neural Machine Translation by Jointly Learning to Align and Translate - ICLR 2015](http://arxiv.org/pdf/1409.0473v6) / [slides](http://www.iclr.cc/lib/exe/fetch.php?media=iclr2015:bahdanau-iclr2015.pdf)
    - [On Using Very Large Target Vocabulary for Neural Machine Translation - ACL 2015] (http://www.anthology.aclweb.org/P/P15/P15-1001.pdf)
+   - [On Using Monolingual Corpora in Neural Machine Translation] (http://arxiv.org/pdf/1503.03535v2.pdf)
    - Note:
      - Kyunghyun Cho now at NYU
-     - some work with Holger Schwenk U of Maine (Lemans)/Facebook
+     - some work with Holger Schwenk
 
  - Huawei (with an intern from Chinese Academy of Sciences)
    - [Encoding Source Language with Convolutional Neural Network for Machine Translation] (http://www.anthology.aclweb.org/P/P15/P15-1003.pdf)
