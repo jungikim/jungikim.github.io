@@ -3,6 +3,11 @@ layout: post
 title: Install Anaconda and Torch on Linux (Python 3.4; Ubuntu 14.X 12.X; $USER directory)
 ---
 
+OpenBLAS
+Append path to OpenBLAS library to LD_LIBRARY_PATH
+export LD_LIBRARY_PATH="/home/jkim/src/3rdparty/OpenBLAS/0.2.13/lib:$LD_LIBRARY_PATH" # do this at the end of .bashrc
+
+
 Anaconda
 
 wget https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda3-2.3.0-Linux-x86_64.sh
@@ -11,16 +16,15 @@ yes
 $HOME/src/3rdparty/anaconda3
 yes
 
-
+conda remove atlas
+conda install -c https://conda.anaconda.org/jakirkham openblas
+echo -e "\n[blas]\nldflags = -lopenblas -lgfortran\n" >> ~/.theanorc
+conda remove openblas
 
 
 Torch
 
 Install dependencies
-
-OpenBLAS
-Append path to OpenBLAS library to LD_LIBRARY_PATH
-export LD_LIBRARY_PATH="/home/jkim/src/3rdparty/OpenBLAS/0.2.13/lib;$LD_LIBRARY_PATH"
 
 libreadline-dev
 openssl libssl-dev
