@@ -17,9 +17,9 @@ $HOME/src/3rdparty/anaconda3
 yes
 
 conda remove atlas
-conda install -c https://conda.anaconda.org/jakirkham openblas
+#conda install -c https://conda.anaconda.org/jakirkham openblas
 echo -e "\n[blas]\nldflags = -lopenblas -lgfortran\n" >> ~/.theanorc
-conda remove openblas
+#conda remove openblas
 
 
 Torch
@@ -33,4 +33,17 @@ software-properties-common libgraphicsmagick1-dev nodejs libfftw3-dev sox libsox
 git clone https://github.com/torch/distro.git ~/src/3rdparty/torch --recursive
 cd ~/src/3rdparty/torch
 ./install.sh
+
+
+
+c.NotebookApp.password = u'sha1:8b7193c63f29:0acb2921be75ccf40cbf4232e8518c2fe2412ce9'
+c.NotebookApp.ip = '192.168.70.84'
+c.NotebookApp.port = 8888
+c.NotebookApp.notebook_dir = '/home/jkim/src/python'
+c.NotebookApp.open_browser = False
+
+
+
+
+
 
