@@ -46,4 +46,13 @@ c.NotebookApp.open_browser = False
 
 
 
+CPLUS_INCLUDE_PATH=/home/jkim/src/3rdparty/OpenBLAS/0.2.13/include LDFLAGS="-L/home/jkim/src/3rdparty/OpenBLAS/0.2.13/lib" pip install tsne
+
+
+
+
+
+
+
+
 
