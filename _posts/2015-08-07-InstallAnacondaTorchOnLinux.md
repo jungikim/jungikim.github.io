@@ -22,6 +22,21 @@ echo -e "\n[blas]\nldflags = -lopenblas -lgfortran\n" >> ~/.theanorc
 #conda remove openblas
 
 
+
+pip install git+git://github.com/Theano/Theano.git --user
+PATH += $HOME/.local/bin
+pip install git+git://github.com/mila-udem/fuel.git --user
+
+
+To upgrade later
+
+pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git --user
+pip install --upgrade --no-deps git+git://github.com/mila-udem/fuel.git --user
+
+
+
+
+
 Torch
 
 Install dependencies
