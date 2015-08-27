@@ -35,6 +35,17 @@ pip install --upgrade --no-deps git+git://github.com/mila-udem/fuel.git --user
 
 
 
+pip install git+git://github.com/mila-udem/blocks.git \
+  -r https://raw.githubusercontent.com/mila-udem/blocks/master/requirements.txt
+  
+  or stable
+  
+  pip install git+git://github.com/mila-udem/blocks.git@stable \
+  -r https://raw.githubusercontent.com/mila-udem/blocks/stable/requirements.txt
+  
+  
+
+
 
 
 Torch
