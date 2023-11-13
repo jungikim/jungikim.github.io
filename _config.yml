@@ -27,8 +27,8 @@ orcid: "0000-0002-4429-0981"
 flickr: "yangpa"
 
 # Markdown
-#highlighter: rouge
-#markdown: kramdown
+highlighter: rouge
+markdown: kramdown
 
 # Tracker
 analytics:
