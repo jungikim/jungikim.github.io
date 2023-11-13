@@ -45,11 +45,12 @@ compress_html:
   startings: []
 
 #collection
-#collections:
-#  projects:
-#    output: true
-#    permalink: /projects/:name/
-#    order:
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+    order:
+      - ASLEnMT.md
 #      - shortProject.md
 #      - longerProjectTitle.md
 #      - redirect.md
