@@ -149,6 +149,16 @@
   border-color: #5dd1b0;
 }
 
+.rounded-social-buttons .social-button.google-scholar {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.google-scholar:hover, .rounded-social-buttons .social-button.google-scholar:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
 .rounded-social-buttons .social-button.flickr {
   background: #0063DC;
 }
