@@ -43,7 +43,7 @@ published: true
 {: reversed="reversed"}
 
 ### Non-refereed publication
-0. YongchaoDeng,JungiKim,GuillaumeKlein,CatherineKobus,NataliaSegal,Christophe Servan, Bo Wang, Dakun Zhang, Josep Crego, and Jean Senellart. SYSTRAN Purely Neural MT Engines for WMT2017. WMT. 265-270. 2017.
+0. Yongchao Deng, Jungi Kim, Guillaume Klein, Catherine Kobus, Natalia Segal, Christophe Servan, Bo Wang, Dakun Zhang, Josep Crego, and Jean Senellart. SYSTRAN Purely Neural MT Engines for WMT2017. WMT. 265-270. 2017.
 0. Josep Crego, Jungi Kim, Guillaume Klein, Anabel Rebollo, Kathy Yang, Jean Senellart, Egor Akhanov, Patrice Brunelle, Aurelien Coquard, Yongchao Deng, Satoshi Enoue, Chiyo Geiss, Joshua Johanson, Ardas Khalsa, Raoum Khiari, Byeongil Ko, Catherine Kobus, Jean Lorieux, Leidiana Martins, Dang-Chuan Nguyen, Alexandra Priori, Thomas Riccardi, Natalia Segal, Christophe Servan, Cyril Tiquet, Bo Wang, Jin Yang, Dakun Zhang, Jing Zhou, Peter Zoldan. SYSTRAN’s Pure Neural Machine Translation Systems. CoRR abs/1610.05540, 2016.
 0. Nils Reimers, Judith Eckle-Kohler, Carsten Schnober, Jungi Kim, Iryna Gurevych. GermEval-2014: Nested Named Entity Recognition with Neural Networks. KONVENS GermEval Shared Task on Named Entity Recognition, 2014.
 0. Jungi Kim and Iryna Gurevych. UKP at CrossLink2: CJK-to-English Subtasks. NTCIR10. 58-61. 2013
