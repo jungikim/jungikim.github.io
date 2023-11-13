@@ -8,8 +8,8 @@ published: true
 ---
 
 I am a senior research engineer at <a href="https://www.systransoft.com/">SYSTRAN Software, Inc</a>.
-I holds a Ph.D. in Computer Science and Engineering from <a href="https://www.postech.ac.kr/">Pohang University of Science and Technology</a>.
-I have possesses extensive experience with deep learning in the natural language processing and machine translation fields in both academia and industry.
+I hold a Ph.D. in Computer Science and Engineering from <a href="https://www.postech.ac.kr/">Pohang University of Science and Technology</a>.
+I have extensive knowledge and experience with deep learning in the natural language processing and machine translation fields in both academia and industry.
 
 **I am interested in all areas related to multilingual and Multimodal natural language analysis using machine learning with applications to natural language processing, information retrieval, and machine translation.**
 
