@@ -3,28 +3,28 @@
 title: Jungi Kim
 description: Senior Research Engineer at SYSTRAN Software, Inc.
 
-baseurl: / #name of GitHub repository
+baseurl: "" #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
-email: # jungi.kim@gmail.com
+email: jungi.kim@gmail.com
 
 # Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+# paginate: 4
+# permalink: /blog/:year/:title/
+# paginate_path: /blog/page:num/
 
 # Social media links in footer
-#twitter: "#"
 linkedin: "kimjungi"
-#stackoverflow: "#"
 github: "jungikim"
-#researchgate: "#"
 google_scholar: "Z34FcrEAAAAJ"
-google_analytics: "G-1BXBN4LBGQ"
 orcid: "0000-0002-4429-0981"
+flickr: "yangpa"
+google_analytics: "G-1BXBN4LBGQ"
+#twitter: "#"
 #quora: "#"
 #instagram: "#"
 #facebook: "#"
-flickr: "yangpa"
+#researchgate: "#"
+#stackoverflow: "#"
 
 # Markdown
 highlighter: rouge
