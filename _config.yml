@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Jungi Kim
-description: Senior Research Engineer at SYSTRAN Software, Inc.
+description: NLP Researcher
 
 baseurl: "" #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
@@ -63,7 +63,6 @@ sass:
 
 include:
   - _pages
-  - _bibliography
 
 exclude:
   - README.md
