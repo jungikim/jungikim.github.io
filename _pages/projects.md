@@ -19,7 +19,7 @@ published: true
           <span>
               <h2>{{ project.title }}</h2>
               <br/>
-              <p>{{ project.description }}</p>
+	      <img src="{{ project.descImg }}"/>
           </span>
           </a>
   </div>
@@ -31,7 +31,7 @@ published: true
           <span>
               <h2>{{ project.title }}</h2>
               <br/>
-              <p>{{ project.description }}</p>
+	      <img src="{{ project.descImg }}"/>
           </span>
           </a>
   </div>
