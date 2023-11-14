@@ -2,7 +2,7 @@
 layout: post
 title: ASL-English MT R&D Project
 description: 
-descImg: /assets/images/asl-En_diagram.png
+descImg: /assets/images/jk_demo_combined_680x576.gif
 ---
 
 
