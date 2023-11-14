@@ -34,7 +34,7 @@ The final demo system is not in the public domain (yet?) and is being further re
 
 
 ## Neural Machine Translation
- - denoising objectives with mono/multilingual text + MT objectives for training NMT (Raffel et al., 2019; Ma et al., 2021; Chi et al., 2021) with Multi-Task, Multi-langpair Learning
+ - Denoising objectives with mono/multilingual text + MT objectives for training NMT (Raffel et al., 2019; Ma et al., 2021; Chi et al., 2021) with Multi-Task, Multi-langpair Learning
  - Document-level LLM Prompt-based MT
  - Tied Transformers (Xia et al., 2019)
  - Retrieval Augmented NMT (Hoang et al., 2023)
