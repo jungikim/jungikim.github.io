@@ -42,7 +42,7 @@ The final demo system is not in the public domain (yet?) and is being further re
  - Segment merger, spliter for Dialogue MT
  - [Multimodal (Video, Audio, Text) Transformers](https://github.com/OpenNMT/OpenNMT-tf/compare/master...jungikim:OpenNMT-tf:multimodal)
  - [CTC Decoding with alignment](https://github.com/baidu-research/warp-ctc/compare/master...jungikim:warp-ctc:master)
- - SVD Softmax (Shim et al., 2017) [luatorch](https://github.com/torch/nn/compare/master...jungikim:nn:svdlinear), [Cuda kernel](https://github.com/torch/cunn/compare/master...jungikim:cunn:svdlinear)
+ - SVD Softmax (Shim et al., 2017) [luatorch](https://github.com/torch/nn/compare/master...jungikim:nn:svdlinear), [Cuda](https://github.com/torch/cunn/compare/master...jungikim:cunn:svdlinear)
 
 
 
