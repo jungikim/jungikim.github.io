@@ -33,11 +33,11 @@ The final demo system is not in the public domain (yet?) and is being further re
 
 
 ## Neural Machine Translation
- - Multi-task (mono/multilingual denoising + MT objectives) NMT
+ - Mono/multilingual denoising + MT objectives NMT (Raffel et al., 2019; Ma et al., 2021; Chi et al., 2021) with Multi-Task, Multi-langpair Learning
  - Document-level LLM Prompt-based MT
  - Tied Transformers (Xia et al., 2019)
  - Retrieval Augmented NMT (Hoang et al., 2023)
- - [Position Encoders for LLM: ALiBi, RoPE, XPOS](https://github.com/OpenNMT/OpenNMT-tf/compare/master...jungikim:OpenNMT-tf:rope_alibi)
+ - [Position Encoders for LLM: ALiBi (Press et al., 2022), RoPE (Su et al., 2021), XPOS (Sun et al., 2021)](https://github.com/OpenNMT/OpenNMT-tf/compare/master...jungikim:OpenNMT-tf:rope_alibi)
  - Segment merger,spliter for Dialogue MT
  - [Multimodal (Video, Audio, Text) Transformers](https://github.com/OpenNMT/OpenNMT-tf/compare/master...jungikim:OpenNMT-tf:multimodal)
  - [CTC Decoding with alignment](https://github.com/baidu-research/warp-ctc/compare/master...jungikim:warp-ctc:master)
