@@ -5,7 +5,7 @@ permalink: /projects/
 published: true
 ---
 
-# ASL-English MT
+## ASL-English MT
 
 <img src="{{ '/assets/images/asl-En_diagram.png' | relative_url }}"/>
 <video width="680" height="576">
@@ -13,4 +13,4 @@ published: true
 </video>
 
 
-# ...
+## ...
