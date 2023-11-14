@@ -25,10 +25,10 @@ I led a team of linguists and engineers and successfully completed the 5-year lo
 The team developed a deep neural network-based sign recognition model that recognizes American Sign languages, both sign glosses and fingerspells, and translates them into English. 
 The demo also translated Spoken English into sign glosses and fingerspells that were animated by an avatar.
 
-Here are the links to the research paper and related open source code from the early stage of the project:
+Here are the links to the research paper and related open source codes from the early stage of the project:
  - [Improving American Sign Language Recognition with Synthetic Data, MT Summit 2019](https://aclanthology.org/W19-6615/)
- - https://github.com/dragonfly-asl/ASLRFeatureExtractor
- - https://github.com/dragonfly-asl/SyntheticDataGenerator
+ - [https://github.com/dragonfly-asl/ASLRFeatureExtractor](https://github.com/dragonfly-asl/ASLRFeatureExtractor)
+ - [https://github.com/dragonfly-asl/SyntheticDataGenerator](https://github.com/dragonfly-asl/SyntheticDataGenerator)
 
 The final demo system is not in the public domain (yet?) and is being further refined and maintained by the project sponsor.
 
