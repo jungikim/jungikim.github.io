@@ -48,7 +48,7 @@ The final demo system is not in the public domain (yet?) and is being further re
 
 ## Cross-Language Information Retrieval
  - Learning Semantics with Deep Belief Networks (COLING 2012)
- - Translating Queries with Pseudo-Contextual Information [PDF](https://drive.google.com/file/d/1tMhYKwKk-Cuw1SBWZgCfcPTfCVRM47p9/view)
+ - Translating Queries with Pseudo-Contextual Information (Unpublished, [PDF](https://drive.google.com/file/d/1tMhYKwKk-Cuw1SBWZgCfcPTfCVRM47p9/view))
  - Cross-lingual Link Discovery
  - Patent CLIR
 
