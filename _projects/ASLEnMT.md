@@ -2,6 +2,7 @@
 layout: post
 title: ASL-English MT R&D Project
 description: 
+descImg: /assets/images/asl-En_diagram.png | relative_url
 ---
 
 
