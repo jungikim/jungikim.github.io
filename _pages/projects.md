@@ -21,7 +21,7 @@ published: true
 </table>
 
 I worked on a government-funded research and development project that developed a bi-directional communication system between signers and speakers.
-I led a team of linguists and engineers and successfully completed the 5-year long project, exploring end-to-end Tranformer and segment-classify-decoding approaches.
+I led a team of linguists and engineers and successfully completed the 5-year long project, exploring end-to-end Tranformer and "segment, classify, decode"-pipeline approaches.
 The team developed a deep neural network-based sign recognition model that recognizes American Sign language, both sign glosses and fingerspells, and an ASL-English MT model that translates the recognized ASL glosses and fingerspells into English. 
 The demo also translated Spoken English into sign glosses and fingerspells that were animated by an avatar.
 
