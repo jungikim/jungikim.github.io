@@ -6,9 +6,6 @@ layout: default
     {% if page.profile.image %}
       <img class="profile {{ page.profile.align }}"  width="25%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
     {% endif %}
-    {% if page.profile.link %}
-      <a href="{{ page.profile.link }}">"{{ page.profile.linktext }}"</a>
-    {% endif %}
 {% endif %}
 
 {{ content }}
