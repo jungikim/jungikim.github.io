@@ -4,8 +4,6 @@ permalink: /
 profile:
   align: right
   image: profile.jpg
-  link: https://drive.google.com/file/d/1aSf_J7QbHEGr5kAgCzBXQp2sd5Ueh9rM/view?usp=sharing
-  linktext: CV
 published: true
 ---
 
