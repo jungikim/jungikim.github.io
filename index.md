@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-I am a <strong>research applied scientist</strong> at <a href="https://www.thomsonreuters.com/">Thomson Reuters</a> Labs working on improving AI assistant tools for legal professionals using LLMs. I have extensive knowledge and experience in the fields of natural language processing, machine translation, and information retrieval. I have a special interest in areas related to <strong>multilingual and multimodal natural language processing</strong>. I hold a Ph.D. in Computer Science and Engineering from  <a href="https://www.postech.ac.kr/">Pohang University of Science and Technology</a>.
+I am a <strong>senior applied scientist</strong> at <a href="https://www.thomsonreuters.com/">Thomson Reuters</a> Labs working on improving AI assistant tools for legal professionals using LLMs. I have extensive knowledge and experience in the fields of natural language processing, machine translation, and information retrieval. I have a special interest in areas related to <strong>multilingual and multimodal natural language processing</strong>. I hold a Ph.D. in Computer Science and Engineering from  <a href="https://www.postech.ac.kr/">Pohang University of Science and Technology</a>.
 
 From 2014 to 2024, I served as a <strong>senior research engineer</strong> at <a href="https://www.systransoft.com/">SYSTRAN Software, Inc</a>.
 At SYSTRAN, I focused on applying deep learning technology in production systems for machine translation and natural language analysis.
