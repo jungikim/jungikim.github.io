@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+        <h1 class="post-headline">Jungi Kim</h1>
+        <h3 class="post-description">NLP Researcher</h3>
+
+        <div class="links scroll">
+        <a href="/">About</a>
+        <a href="https://drive.google.com/file/d/1Btj-B0WiylLfwcN2p8tsy-SKEtF3XVXR/view">CV</a>
+        <a href="/publications/">Publications</a>
+        <a href="/projects/">Projects</a>
+        <a href="/blog/">Blog</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Projects | Jungi Kim</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Projects" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="NLP Researcher" />
+<meta property="og:description" content="NLP Researcher" />
+<link rel="canonical" href="/projects/" />
+<meta property="og:url" content="/projects/" />
+<meta property="og:site_name" content="Jungi Kim" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Projects" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"NLP Researcher","headline":"Projects","url":"/projects/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h2 id="american-sign-language-english-machine-translation">American Sign Language-English Machine Translation</h2>
+
+<table>
+  <tr>
+    <td>
+      <img src="/assets/images/asl-En_diagram.png" width="408" height="296">      
+    </td>
+    <td>
+      <video width="340" height="288" controls="" autoplay="" loop="">
+        <source src="/assets/images/jk_demo_combined_680x576.mp4" type="video/mp4"></source>
+      </video>
+    </td>
+  </tr>
+</table>
+
+<p>I worked on a government-funded research and development project that developed a bi-directional communication system between signers and speakers.
+I led a team of linguists and engineers and successfully completed the 5-year long project, exploring end-to-end Tranformer and “segment, classify, decode”-pipeline approaches.
+The team developed a deep neural network-based sign recognition model that recognizes American Sign language, both sign glosses and fingerspells, and an ASL-English MT model that translates the recognized ASL glosses and fingerspells into English. 
+The demo also translated Spoken English into sign glosses and fingerspells that were animated by an avatar.</p>
+
+<p>Here are the links to the research paper and related open source codes from the early stage of the project:</p>
+<ul>
+  <li><a href="https://aclanthology.org/W19-6615/" target="_blank" rel="noopener noreferrer">Improving American Sign Language Recognition with Synthetic Data, MT Summit 2019</a></li>
+  <li><a href="https://github.com/dragonfly-asl/ASLRFeatureExtractor" target="_blank" rel="noopener noreferrer">https://github.com/dragonfly-asl/ASLRFeatureExtractor</a></li>
+  <li><a href="https://github.com/dragonfly-asl/SyntheticDataGenerator" target="_blank" rel="noopener noreferrer">https://github.com/dragonfly-asl/SyntheticDataGenerator</a></li>
+</ul>
+
+<p>The final demo system is not in the public domain (yet?) and is being further refined and maintained by the project sponsor.</p>
+
+<h2 id="neural-machine-translation">Neural Machine Translation</h2>
+<ul>
+  <li>Denoising objectives with mono/multilingual text + MT objectives for training NMT (Raffel et al., 2019; Ma et al., 2021; Chi et al., 2021) with Multi-Task, Multi-langpair Learning</li>
+  <li>Document-level LLM Prompt-based MT</li>
+  <li>Tied Transformers (Xia et al., 2019)</li>
+  <li>Retrieval Augmented NMT (Hoang et al., 2023)</li>
+  <li><a href="https://github.com/OpenNMT/OpenNMT-tf/compare/master...jungikim:OpenNMT-tf:rope_alibi" target="_blank" rel="noopener noreferrer">Position Encoders for LLM: ALiBi (Press et al., 2022), RoPE (Su et al., 2021), XPOS (Sun et al., 2021)</a></li>
+  <li>Segment merger, spliter for Dialogue MT</li>
+  <li><a href="https://github.com/OpenNMT/OpenNMT-tf/compare/master...jungikim:OpenNMT-tf:multimodal" target="_blank" rel="noopener noreferrer">Multimodal (Video, Audio, Text) Transformers</a></li>
+  <li><a href="https://github.com/baidu-research/warp-ctc/compare/master...jungikim:warp-ctc:master" target="_blank" rel="noopener noreferrer">CTC Decoding with alignment</a></li>
+  <li>SVD Softmax (Shim et al., 2017) <a href="https://github.com/torch/nn/compare/master...jungikim:nn:svdlinear" target="_blank" rel="noopener noreferrer">luatorch</a>, <a href="https://github.com/torch/cunn/compare/master...jungikim:cunn:svdlinear" target="_blank" rel="noopener noreferrer">Cuda</a>
+</li>
+</ul>
+
+<h2 id="cross-language-information-retrieval">Cross-Language Information Retrieval</h2>
+<ul>
+  <li>Learning Semantics with Deep Belief Networks (COLING 2012)</li>
+  <li>Translating Queries with Pseudo-Contextual Information (Unpublished, <a href="https://drive.google.com/file/d/1tMhYKwKk-Cuw1SBWZgCfcPTfCVRM47p9/view" target="_blank" rel="noopener noreferrer">PDF</a>)</li>
+  <li>Cross-lingual Link Discovery</li>
+  <li>Patent CLIR</li>
+</ul>
+
+<h2 id="multilingual-natural-language-processing">Multilingual Natural Language Processing</h2>
+<ul>
+  <li>Evaluating Multilanguage-Comparability of Subjectivity Analysis Systems (ACL 2010)</li>
+  <li>Discovering the Discriminative Views: Measuring Term Weights for Sentiment Analysis (ACL-ICJNLP 2009)</li>
+  <li>Conveying Subjectivity of a Lexicon of One Language into Another Using a Bilingual Dictionary and a Link Analysis Algorithm (ICCPOL 2009)</li>
+</ul>
+
+<h2>…</h2>
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Jungi Kim 2024
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 09 July 2024
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button email" itemprop="email" href="mailto:%6A%75%6E%67%69.%6B%69%6D@%67%6D%61%69%6C.%63%6F%6D" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title="" class="social-button linkedin" href="https://www.linkedin.com/in/kimjungi" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/jungikim" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button orcid" href="https://orcid.org/0000-0002-4429-0981" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-orcid"></i>
+</a><a title="" class="social-button google-scholar" href="https://scholar.google.com/citations?user=Z34FcrEAAAAJ" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="ai ai-google-scholar"></i>
+</a><a title="" class="social-button flickr" href="https://www.flickr.com/photos/yangpa" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-flickr"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BXBN4LBGQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1BXBN4LBGQ');
+</script>
+
+
+    </body>
+
+</html>
