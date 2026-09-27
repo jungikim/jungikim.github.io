@@ -5,6 +5,17 @@ permalink: /projects/
 published: true
 ---
 
+## Customer Content Search for Legal AI Agents
+
+I led the applied science research and development of a customer content search system within the CoCounsel ecosystem at Thomson Reuters Labs. This project bridges classical Information Retrieval (IR) with Large Language Models (LLMs) to provide precise, contextually rich grounding for the CoCounsel Next AI agent. The core science Proof-of-Concept was successfully transitioned into production and now operates as the primary contextual grounding engine for Thomson Reuters' legal AI agents.
+
+* Hybrid search architecture combining classical lexical search with semantic document- and passage-level retrieval
+* LLM-powered document ingestion pipeline to categorize content into specialized legal taxonomies, extract named entities, and generate document summaries
+* Dynamic query intent formulation to interpret user intents and apply targeted search fields, query boosts, and metadata filters
+* Integration of advanced neural reranking models, transitioning from LLM-based approaches to highly efficient, fine-tuned Small Language Models (SLMs)
+* Cross-functional evaluation pipeline design and dataset curation in collaboration with legal Subject Matter Experts (SMEs)
+
+
 ## American Sign Language-English Machine Translation
 
 <table>
